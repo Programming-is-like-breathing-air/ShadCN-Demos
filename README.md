@@ -1,9 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Shadcn-Demos
+
+This template uses the standard shadcn-nextjs template package to directly integrate the template page in shadcn into the project for easy startup. Different GitHub branches represent different page template packages.
+
 ## Getting Started
 
-First, run the development server:
-
+1.Install related packages.
+```bash
+npm install
+```
+2. run the development server:
 ```bash
 npm run dev
 # or
@@ -13,6 +20,7 @@ pnpm dev
 # or
 bun dev
 ```
+3. Jump to the template page ``http://localhost:3000/pagemane``
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
